@@ -19,111 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8d9680f-91c4-4f26-a273-d598c67c1e11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/App_Resources/Android/src/main/res/values-fr/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/App_Resources/Android/src/main/res/values-it/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/App_Resources/Android/src/main/res/values-v29/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/App_Resources/Android/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/App_Resources/iOS/en.lproj/InfoPlist.strings" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/App_Resources/iOS/en.lproj/Localizable.strings" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/App_Resources/iOS/fr.lproj/InfoPlist.strings" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/App_Resources/iOS/fr.lproj/Localizable.strings" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/App_Resources/iOS/it.lproj/InfoPlist.strings" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/App_Resources/iOS/it.lproj/Localizable.strings" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/i18n/en/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/i18n/fr/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/i18n/it/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Museo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Museo.iml" afterDir="false" />
+    <list default="true" id="e8d9680f-91c4-4f26-a273-d598c67c1e11" name="Default Changelist" comment="nativescript 6&#10;bug fixed&#10;bug unzipping">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App_Resources/Android/app.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/Android/app.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App_Resources/Android/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/Android/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App_Resources/Android/src/main/res/drawable-hdpi/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/Android/src/main/res/drawable-hdpi/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App_Resources/Android/src/main/res/drawable-hdpi/logo_museo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App_Resources/Android/src/main/res/drawable-ldpi/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/Android/src/main/res/drawable-ldpi/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App_Resources/Android/src/main/res/drawable-ldpi/logo_museo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App_Resources/Android/src/main/res/drawable-mdpi/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/Android/src/main/res/drawable-mdpi/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App_Resources/Android/src/main/res/drawable-mdpi/logo_museo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App_Resources/Android/src/main/res/drawable-nodpi/splash_screen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/Android/src/main/res/drawable-nodpi/splash_screen.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App_Resources/Android/src/main/res/drawable-xhdpi/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/Android/src/main/res/drawable-xhdpi/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App_Resources/Android/src/main/res/drawable-xhdpi/logo_museo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App_Resources/Android/src/main/res/drawable-xxhdpi/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/Android/src/main/res/drawable-xxhdpi/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App_Resources/Android/src/main/res/drawable-xxhdpi/logo_museo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App_Resources/Android/src/main/res/drawable-xxxhdpi/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/Android/src/main/res/drawable-xxxhdpi/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App_Resources/Android/src/main/res/drawable-xxxhdpi/logo_museo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App_Resources/Android/src/main/res/values-v21/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/Android/src/main/res/values-v21/styles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App_Resources/Android/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/Android/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App_Resources/Android/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/Android/src/main/res/values/styles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-1024.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-1024.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-20.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-20.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-20@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-20@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-20@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-20@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-29.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-29.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-29@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-29@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-29@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-29@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-40.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-40.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-40@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-40@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-40@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-40@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-60@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-60@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-60@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-60@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-76.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-76.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-76@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-76@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-83.5@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-83.5@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Contents.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default-1125h.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default-568h@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default-667h@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default-736h@3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default-Landscape-X.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default-Landscape-XR.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default-Landscape-XS-Max.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default-Landscape.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default-Landscape@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default-Landscape@3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default-Portrait-XR.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default-Portrait-XS-Max.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default-Portrait.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default-Portrait@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchScreen.AspectFill.imageset/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchScreen.AspectFill.imageset/Contents.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchScreen.AspectFill.imageset/LaunchScreen.AspectFill@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchScreen.AspectFill.imageset/LaunchScreen-AspectFill@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchScreen.Center.imageset/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchScreen.Center.imageset/Contents.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchScreen.Center.imageset/LaunchScreen.Center@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchScreen.Center.imageset/LaunchScreen-Center@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Info.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/build.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/build.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/detail/detail-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/detail/detail-page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/detail/detail-page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/detail/detail-page.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/explore/explore.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/explore/explore.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/explore/explore.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/explore/explore.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/home/home-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/home/home-page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/home/home-page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/home/home-page.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/i18n/en.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/i18n/fr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/i18n/it.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/info/info.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/info/info.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/info/info.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/info/info.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/intro/intro.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/intro/intro.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/intro/intro.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/intro/intro.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/load/load.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/load/load.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/load/load.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/load/load.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/museo/museo.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/museo/museo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/museo/museo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/museo/museo.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/room/room.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/room/room.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/room/room.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/room/room.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/rooms/rooms.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/rooms/rooms.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/rooms/rooms.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/rooms/rooms.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/tour/tour.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/tour/tour.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/tour/tour.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/tour/tour.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/tours/tours.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/tours/tours.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/tours/tours.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/tours/tours.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/jsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +94,8 @@
       <workItem from="1617699168940" duration="1527000" />
       <workItem from="1617700717507" duration="3000" />
       <workItem from="1617701037760" duration="7947000" />
-      <workItem from="1617896436136" duration="302000" />
+      <workItem from="1617896436136" duration="491000" />
+      <workItem from="1617897875129" duration="15000" />
     </task>
     <task id="LOCAL-00001" summary="new version app">
       <created>1557916249229</created>
@@ -240,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1558291140354</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="nativescript 6&#10;bug fixed&#10;bug unzipping">
+      <created>1617896912727</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1617896912727</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,7 +177,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new version app" />
     <MESSAGE value="color navigation bar&#10;upgrade velocity detail page" />
-    <option name="LAST_COMMIT_MESSAGE" value="color navigation bar&#10;upgrade velocity detail page" />
+    <MESSAGE value="nativescript 6&#10;bug fixed&#10;bug unzipping" />
+    <option name="LAST_COMMIT_MESSAGE" value="nativescript 6&#10;bug fixed&#10;bug unzipping" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1396" height="203" key="GridCell.Tab.0.bottom" timestamp="1617365282711">
@@ -294,6 +201,10 @@
     </state>
     <state width="1396" height="203" key="GridCell.Tab.0.right/0.25.1440.804@0.25.1440.804" timestamp="1617363161558" />
     <state width="1396" height="203" key="GridCell.Tab.0.right/0.25.1440.807@0.25.1440.807" timestamp="1617365282710" />
+    <state x="320" y="162" key="Vcs.Push.Dialog.v2" timestamp="1617896916628">
+      <screen x="0" y="25" width="1440" height="803" />
+    </state>
+    <state x="320" y="162" key="Vcs.Push.Dialog.v2/0.25.1440.803/1440.25.1920.1055@0.25.1440.803" timestamp="1617896916628" />
     <state x="385" y="154" width="670" height="676" key="search.everywhere.popup" timestamp="1617364403641">
       <screen x="0" y="25" width="1440" height="805" />
     </state>
