@@ -19,9 +19,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8d9680f-91c4-4f26-a273-d598c67c1e11" name="Default Changelist" comment="nativescript 6&#10;bug fixed&#10;bug unzipping">
+    <list default="true" id="e8d9680f-91c4-4f26-a273-d598c67c1e11" name="Default Changelist" comment="url real server">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/detail/detail-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/detail/detail-page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/explore/explore.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/explore/explore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/home/home-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/home/home-page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/intro/intro.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/intro/intro.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/load/load.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/load/load.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/museo/museo.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/museo/museo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/room/room.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/room/room.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/rooms/rooms.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/rooms/rooms.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/tour/tour.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/tour/tour.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/tours/tours.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/tours/tours.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +104,9 @@
       <workItem from="1617700717507" duration="3000" />
       <workItem from="1617701037760" duration="7947000" />
       <workItem from="1617896436136" duration="491000" />
-      <workItem from="1617897875129" duration="15000" />
+      <workItem from="1617897875129" duration="224000" />
+      <workItem from="1617898209998" duration="229000" />
+      <workItem from="1617898748716" duration="817000" />
     </task>
     <task id="LOCAL-00001" summary="new version app">
       <created>1557916249229</created>
@@ -146,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617896912727</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="url real server">
+      <created>1617898047544</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1617898047544</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,7 +196,8 @@
     <MESSAGE value="new version app" />
     <MESSAGE value="color navigation bar&#10;upgrade velocity detail page" />
     <MESSAGE value="nativescript 6&#10;bug fixed&#10;bug unzipping" />
-    <option name="LAST_COMMIT_MESSAGE" value="nativescript 6&#10;bug fixed&#10;bug unzipping" />
+    <MESSAGE value="url real server" />
+    <option name="LAST_COMMIT_MESSAGE" value="url real server" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1396" height="203" key="GridCell.Tab.0.bottom" timestamp="1617365282711">
@@ -201,9 +220,10 @@
     </state>
     <state width="1396" height="203" key="GridCell.Tab.0.right/0.25.1440.804@0.25.1440.804" timestamp="1617363161558" />
     <state width="1396" height="203" key="GridCell.Tab.0.right/0.25.1440.807@0.25.1440.807" timestamp="1617365282710" />
-    <state x="320" y="162" key="Vcs.Push.Dialog.v2" timestamp="1617896916628">
-      <screen x="0" y="25" width="1440" height="803" />
+    <state x="320" y="161" key="Vcs.Push.Dialog.v2" timestamp="1617898050141">
+      <screen x="0" y="25" width="1440" height="800" />
     </state>
+    <state x="320" y="161" key="Vcs.Push.Dialog.v2/0.25.1440.800/1440.25.1920.1055@0.25.1440.800" timestamp="1617898050141" />
     <state x="320" y="162" key="Vcs.Push.Dialog.v2/0.25.1440.803/1440.25.1920.1055@0.25.1440.803" timestamp="1617896916628" />
     <state x="385" y="154" width="670" height="676" key="search.everywhere.popup" timestamp="1617364403641">
       <screen x="0" y="25" width="1440" height="805" />

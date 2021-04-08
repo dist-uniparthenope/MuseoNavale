@@ -24,11 +24,11 @@ exports.onNavigatingTo = function(args) {
 
     if(appSetting.getString("update", "NO") === "YES"){
         appSetting.setString("update", "NO");
-        fs.knownFolders.currentApp().getFolder("/assets/zip").remove();
+        fs.knownFolders.documents().getFolder("/assets/zip").remove();
         download_and_zip();
     }
     else{
-        if(!fs.Folder.exists(fs.knownFolders.currentApp().path + "/assets/zip")) {
+        if(!fs.Folder.exists(fs.knownFolders.documents().path + "/assets/zip")) {
             download_and_zip();
         }
         else{
@@ -46,9 +46,9 @@ exports.onNavigatingTo = function(args) {
 function download_and_zip() {
     console.log('Download Started');
     viewModel.set("loading", "Downloading.....");
-    let folder = fs.knownFolders.currentApp();
+    let folder = fs.knownFolders.documents();
     let file = fs.path.join(folder.path, "/assets/zip/prova.zip");
-    let dest = fs.path.join(fs.knownFolders.currentApp().path, "/assets/zip");
+    let dest = fs.path.join(fs.knownFolders.documents().path, "/assets/zip");
     console.log(file);
     console.log(dest);
 
@@ -73,7 +73,7 @@ function download_and_zip() {
                             _file.remove();
                         }
                         else{
-                            fs.knownFolders.currentApp().getFile("/assets/zip/prova.zip").remove();
+                            fs.knownFolders.documents().getFile("/assets/zip/prova.zip").remove();
                         }
 
                         console.log("Remove");
@@ -88,7 +88,7 @@ function download_and_zip() {
                 file.remove();
             }
             else{
-                fs.knownFolders.currentApp().getFile("/assets/zip/prova.zip").remove();
+                fs.knownFolders.documents().getFile("/assets/zip/prova.zip").remove();
             }
             page.frame.navigate("intro/intro");
 
@@ -98,37 +98,6 @@ function download_and_zip() {
             };
             page.frame.navigate(navigationEntry);
         });
-        /*
-        native_zip.unzipWithProgress(file, dest, onZipProgress, true).then(() => {
-                console.log('unzip succesfully completed');
-
-                let url_main = folder.getFolder("/assets/zip/file/MuseoNavale");
-                url_main.getEntities().then(function (data) {
-                    for (let i = 1; i < data.length; i++) {
-                        let name = data[i]["_name"];
-
-                        if (url_main.getFile(name).extension === ".json") {
-                            appSetting.setString("fileJson", name);
-                            fs.knownFolders.currentApp().getFile("/assets/zip/prova.zip").remove();
-                            console.log("Remove");
-                            page.frame.navigate("home/home-page");
-                        }
-                    }
-                });
-            })
-            .catch(err => {
-                console.log('unzip error: ' + err);
-                fs.knownFolders.currentApp().getFolder("/assets/zip").remove();
-                page.frame.navigate("intro/intro");
-
-                const navigationEntry = {
-                    moduleName: "intro/intro",
-                    clearHistory: true
-                };
-                page.frame.navigate(navigationEntry);
-            });
-
-         */
     },function (e) {
         console.log(e);
         const navigationEntry = {

@@ -24,7 +24,7 @@ exports.onNavigatingTo = function(args) {
     if (device.isAndroid)
         Fresco.initialize();
 
-    let documents = fs.knownFolders.currentApp();
+    let documents = fs.knownFolders.documents();
 
     console.log("exists");
     let url_main = documents.getFolder("/assets/zip/file/MuseoNavale");

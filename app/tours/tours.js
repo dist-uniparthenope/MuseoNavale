@@ -17,7 +17,7 @@ exports.onNavigatingTo = function(args) {
         items:items
     });
 
-    let documents = fs.knownFolders.currentApp();
+    let documents = fs.knownFolders.documents();
     let url_main = documents.getFolder("/assets/zip/file/MuseoNavale");
     let fileJson = url_main.getFile(appSetting.getString("fileJson"));
     fileJson.readText().then(function (data) {

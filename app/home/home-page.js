@@ -21,7 +21,7 @@ exports.onNavigatingTo = function(args) {
     if(device.isIOS)
         page.enableSwipeBackNavigation = false;
 
-    let documents = fs.knownFolders.currentApp();
+    let documents = fs.knownFolders.documents();
 
     console.log("exists");
     let url_main = documents.getFolder("/assets/zip/file/MuseoNavale");

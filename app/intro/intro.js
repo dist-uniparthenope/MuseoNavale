@@ -30,7 +30,7 @@ exports.onNavigatingTo = function(args) {
 exports.benvenuto = function(){
     viewModel.set("button_enabled", false);
 
-    let doc = fs.knownFolders.currentApp().path;
+    let doc = fs.knownFolders.documents().path;
     if(!fs.Folder.exists(doc + "/assets/zip/file/MuseoNavale")) {
         page.frame.navigate("load/load");
     }
@@ -39,7 +39,7 @@ exports.benvenuto = function(){
         console.log(myConnectionType);
         if(myConnectionType === 1 || myConnectionType === 2){
             fetch(global.url + "/version").then((response) => response.json()).then((data) =>{
-                let documents = fs.knownFolders.currentApp();
+                let documents = fs.knownFolders.documents();
                 let url_main = documents.getFolder("/assets/zip/file/MuseoNavale");
                 let fileJson = url_main.getFile(appSetting.getString("fileJson"));
                 fileJson.readText().then(function (data1) {

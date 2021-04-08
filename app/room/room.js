@@ -28,7 +28,7 @@ exports.onNavigatingTo = function(args) {
     index = page.navigationContext.index;
     viewModel.set("titolo", data.id);
 
-    let documents = fs.knownFolders.currentApp();
+    let documents = fs.knownFolders.documents();
     let url_main = documents.getFolder("/assets/zip/file/MuseoNavale");
     console.log(url_main);
     let fileJson = url_main.getFile(appSetting.getString("fileJson"));

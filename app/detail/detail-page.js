@@ -86,7 +86,7 @@ function set_items(data){
         viewModel.set("text", data.description);
     }
 
-    let folder = fs.knownFolders.currentApp();
+    let folder = fs.knownFolders.documents();
     let file = fs.path.join(folder.path, "/assets/zip/file/MuseoNavale/") + "/" + data.audio;
     //console.log(file);
 
@@ -180,7 +180,7 @@ function set_items(data){
         for(let i=0; i<other_image.length; i++)
         {
             images.push({
-                "image" : fs.knownFolders.currentApp().getFolder("/assets/zip/file/MuseoNavale").path + "/" + other_image[i]
+                "image" : fs.knownFolders.documents().getFolder("/assets/zip/file/MuseoNavale").path + "/" + other_image[i]
             });
         }
     }
