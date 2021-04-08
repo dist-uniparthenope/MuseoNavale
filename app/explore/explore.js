@@ -5,13 +5,14 @@ let ObservableArray = require("tns-core-modules/data/observable-array").Observab
 const appSetting = require("tns-core-modules/application-settings");
 let stringSimilarity = require('string-similarity');
 let Fresco = require("nativescript-fresco");
+let device = require("tns-core-modules/platform");
 
 let items;
 let viewModel;
 let page;
 let myItems = new ObservableArray();
 
-function onNavigatingTo(args) {
+exports.onNavigatingTo = function(args) {
     page = args.object;
 
     items = new ObservableArray();
@@ -20,7 +21,8 @@ function onNavigatingTo(args) {
         items:items
     });
 
-    Fresco.initialize();
+    if (device.isAndroid)
+        Fresco.initialize();
 
     let documents = fs.knownFolders.currentApp();
 
@@ -34,14 +36,14 @@ function onNavigatingTo(args) {
             let path_img = url_main.path + "/" +img_name;
             let title = jsonData['items'][i]['title'];
 
-            if(img_name != "") {
+            if(img_name !== "") {
                 items.push({
                     "id": jsonData['items'][i]['nid'],
                     "image": path_img,
                     "title": title,
                     "other_image": jsonData['items'][i]['field_other_image'],
                     "audio": jsonData['items'][i]['field_audio'],
-                    "description": jsonData['items'][i]['field_description']
+                    "description": jsonData['items'][i]['body']
                 });
             }
             else{
@@ -56,20 +58,20 @@ function onNavigatingTo(args) {
         }
     });
 
-    if (page.get("search_text") != "")
+    if (page.get("search_text") !== "")
         page.set("search_text", "");
 
     page.bindingContext = viewModel;
 }
 
-function onTextViewLoaded(args) {
+exports.onTextViewLoaded = function(args) {
     const textView = args.object;
 
     textView.on("textChange", (args) => {
         console.dir(args.value);
         myItems.splice(0);
 
-        if(args.value != "") {
+        if(args.value !== "") {
             for(let i = 0; i < items.length; i++) {
                 let similarity = stringSimilarity.compareTwoStrings(args.value, items.getItem(i).title);
                 if (similarity > 0.2) {
@@ -84,12 +86,12 @@ function onTextViewLoaded(args) {
     });
 }
 
-function onTap(args) {
+exports.onTap = function(args) {
     const index = args.index;
 
     let temp = new ObservableArray();
 
-    if(myItems.length !=0)
+    if(myItems.length !== 0)
         temp.push(myItems.getItem(index));
     else
         temp.push(items.getItem(index));
@@ -104,7 +106,3 @@ function onTap(args) {
 
     page.frame.navigate(nav);
 }
-
-exports.onTap = onTap;
-exports.onTextViewLoaded = onTextViewLoaded;
-exports.onNavigatingTo = onNavigatingTo;

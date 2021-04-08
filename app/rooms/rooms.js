@@ -8,7 +8,7 @@ let viewModel;
 let page;
 let items;
 
-function onNavigatingTo(args) {
+exports.onNavigatingTo = function(args) {
     page = args.object;
 
     items = new ObservableArray();
@@ -38,7 +38,7 @@ function onNavigatingTo(args) {
     page.bindingContext = viewModel;
 }
 
-function room(args){
+exports.room = function(args){
     let R = args.view._observers.textChange[0].thisArg.options.sourceProperty;
 
     let temp = new ObservableArray();
@@ -61,6 +61,3 @@ function room(args){
     else
         return;
 }
-
-exports.room = room;
-exports.onNavigatingTo = onNavigatingTo;

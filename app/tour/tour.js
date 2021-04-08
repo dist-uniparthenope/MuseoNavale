@@ -11,7 +11,7 @@ let page;
 let items;
 let data = new ObservableArray();
 
-function onNavigatingTo(args) {
+exports.onNavigatingTo = function(args) {
     page = args.object;
 
     items = new ObservableArray();
@@ -20,7 +20,8 @@ function onNavigatingTo(args) {
         items:items
     });
 
-    Fresco.initialize();
+    if (device.isAndroid)
+        Fresco.initialize();
 
     data = page.navigationContext.data;
     viewModel.set("titolo", data.id);
@@ -77,12 +78,12 @@ function onNavigatingTo(args) {
     fileJson.readText().then(function (data1) {
         let jsonData = JSON.parse(data1);
         for(let i=0; i<jsonData['tours'].length; i++){
-            if(jsonData['tours'][i]['tour'] == data.id){
+            if(jsonData['tours'][i]['tour'] === data.id){
                 for(let j=0; j<jsonData['tours'][i]['items'].length; j++){
                     let img_name = jsonData['tours'][i]['items'][j]['field_image'];
                     let path_img = url_main.path + "/" +img_name;
 
-                    if(img_name != ""){
+                    if(img_name !== ""){
                         items.push({
                             "id" : jsonData['tours'][i]['items'][j]['nid'],
                             "title": jsonData['tours'][i]['items'][j]['title'],
@@ -90,7 +91,7 @@ function onNavigatingTo(args) {
                             "other_image": jsonData['tours'][i]['items'][j]['field_other_image'],
                             "audio": jsonData['tours'][i]['items'][j]['field_audio'],
                             "number_tour" : jsonData['tours'][i]['items'][j]['field_number_tour'],
-                            "description": jsonData['tours'][i]['items'][j]['field_description']
+                            "description": jsonData['tours'][i]['items'][j]['body']
                         });
                     }
                     else{
@@ -101,7 +102,7 @@ function onNavigatingTo(args) {
                             "other_image": "",
                             "audio": jsonData['tours'][i]['items'][j]['field_audio'],
                             "number_tour" : jsonData['tours'][i]['items'][j]['field_number_tour'],
-                            "description": jsonData['tours'][i]['items'][j]['field_description']
+                            "description": jsonData['tours'][i]['items'][j]['body']
                         })
                     }
 
@@ -112,7 +113,7 @@ function onNavigatingTo(args) {
                         return (dataA < dataB) ? -1 : (dataA > dataB) ? 1 : 0;
                     });
 
-                    if(jsonData['tours'][i]['items'][j]['field_room'] != jsonData['tours'][i]['items'][j+1]['field_room']){
+                    if(jsonData['tours'][i]['items'][j]['field_room'] !== jsonData['tours'][i]['items'][j+1]['field_room']){
                         let desc;
                         if(device.device.language.includes("it")){
                             desc = "Per proseguire il tour, recarsi nella " + jsonData['tours'][i]['items'][j+1]['field_room'] + "."
@@ -139,10 +140,12 @@ function onNavigatingTo(args) {
         }
     });
 
+    console.log(items);
+
     page.bindingContext = viewModel;
 }
 
-function onTap(args) {
+exports.onTap = function(args) {
     const index = args.index;
 
     let all_items = new ObservableArray();
@@ -161,6 +164,3 @@ function onTap(args) {
 
     page.frame.navigate(nav);
 }
-
-exports.onTap = onTap;
-exports.onNavigatingTo = onNavigatingTo;

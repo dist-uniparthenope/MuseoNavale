@@ -1,155 +1,146 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e8d9680f-91c4-4f26-a273-d598c67c1e11" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/App_Resources/Android/src/main/res/values-fr/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/App_Resources/Android/src/main/res/values-it/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/App_Resources/Android/src/main/res/values-v29/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/App_Resources/Android/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/App_Resources/iOS/en.lproj/InfoPlist.strings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/App_Resources/iOS/en.lproj/Localizable.strings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/App_Resources/iOS/fr.lproj/InfoPlist.strings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/App_Resources/iOS/fr.lproj/Localizable.strings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/App_Resources/iOS/it.lproj/InfoPlist.strings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/App_Resources/iOS/it.lproj/Localizable.strings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/i18n/en/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/i18n/fr/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/i18n/it/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Museo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Museo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/App_Resources/Android/app.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/Android/app.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/App_Resources/Android/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/Android/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/App_Resources/Android/src/main/res/drawable-hdpi/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/Android/src/main/res/drawable-hdpi/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/App_Resources/Android/src/main/res/drawable-hdpi/logo_museo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/App_Resources/Android/src/main/res/drawable-ldpi/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/Android/src/main/res/drawable-ldpi/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/App_Resources/Android/src/main/res/drawable-ldpi/logo_museo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/App_Resources/Android/src/main/res/drawable-mdpi/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/Android/src/main/res/drawable-mdpi/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/App_Resources/Android/src/main/res/drawable-mdpi/logo_museo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/App_Resources/Android/src/main/res/drawable-nodpi/splash_screen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/Android/src/main/res/drawable-nodpi/splash_screen.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/App_Resources/Android/src/main/res/drawable-xhdpi/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/Android/src/main/res/drawable-xhdpi/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/App_Resources/Android/src/main/res/drawable-xhdpi/logo_museo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/App_Resources/Android/src/main/res/drawable-xxhdpi/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/Android/src/main/res/drawable-xxhdpi/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/App_Resources/Android/src/main/res/drawable-xxhdpi/logo_museo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/App_Resources/Android/src/main/res/drawable-xxxhdpi/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/Android/src/main/res/drawable-xxxhdpi/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/App_Resources/Android/src/main/res/drawable-xxxhdpi/logo_museo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/App_Resources/Android/src/main/res/values-v21/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/Android/src/main/res/values-v21/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/App_Resources/Android/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/Android/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/App_Resources/Android/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/Android/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-1024.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-1024.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-20.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-20.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-20@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-20@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-20@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-20@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-29.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-29.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-29@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-29@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-29@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-29@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-40.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-40.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-40@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-40@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-40@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-40@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-60@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-60@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-60@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-60@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-76.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-76.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-76@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-76@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-83.5@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-83.5@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default-1125h.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default-568h@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default-667h@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default-736h@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default-Landscape-X.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default-Landscape-XR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default-Landscape-XS-Max.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default-Landscape.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default-Landscape@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default-Landscape@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default-Portrait-XR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default-Portrait-XS-Max.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default-Portrait.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default-Portrait@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchScreen.AspectFill.imageset/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchScreen.AspectFill.imageset/Contents.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchScreen.AspectFill.imageset/LaunchScreen.AspectFill@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchScreen.AspectFill.imageset/LaunchScreen-AspectFill@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchScreen.Center.imageset/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchScreen.Center.imageset/Contents.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchScreen.Center.imageset/LaunchScreen.Center@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchScreen.Center.imageset/LaunchScreen-Center@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/App_Resources/iOS/build.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/build.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/detail/detail-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/detail/detail-page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/detail/detail-page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/detail/detail-page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/explore/explore.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/explore/explore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/explore/explore.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/explore/explore.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/home/home-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/home/home-page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/home/home-page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/home/home-page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/i18n/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/i18n/fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/i18n/it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/info/info.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/info/info.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/info/info.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/info/info.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/intro/intro.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/intro/intro.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/intro/intro.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/intro/intro.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/load/load.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/load/load.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/load/load.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/load/load.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/museo/museo.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/museo/museo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/museo/museo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/museo/museo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/room/room.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/room/room.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/room/room.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/room/room.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/rooms/rooms.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/rooms/rooms.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/rooms/rooms.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/rooms/rooms.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/tour/tour.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/tour/tour.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/tour/tour.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/tour/tour.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/tours/tours.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/tours/tours.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/tours/tours.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/tours/tours.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/jsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/app-root.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="20" selection-start-column="20" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/museo/museo.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="42" column="171" selection-start-line="42" selection-start-column="171" selection-end-line="42" selection-end-column="171" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/App_Resources/Android/src/main/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="27" column="32" lean-forward="true" selection-start-line="27" selection-start-column="32" selection-end-line="28" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/detail/detail-page.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/app/App_Resources/Android/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/home/home-page.js" />
-        <option value="$PROJECT_DIR$/app/App_Resources/Android/src/main/res/drawable-nodpi/splash_screen.xml" />
-        <option value="$PROJECT_DIR$/app/load/load.js" />
-        <option value="$PROJECT_DIR$/app/room/room.js" />
-        <option value="$PROJECT_DIR$/app/explore/explore.js" />
-        <option value="$PROJECT_DIR$/app/tour/tour.js" />
-        <option value="$PROJECT_DIR$/app/detail/detail-page.js" />
-        <option value="$PROJECT_DIR$/app/tour/tour.xml" />
-        <option value="$PROJECT_DIR$/app/explore/explore.xml" />
-        <option value="$PROJECT_DIR$/app/room/room.xml" />
-        <option value="$PROJECT_DIR$/app/App_Resources/Android/src/main/res/values/styles.xml" />
-        <option value="$PROJECT_DIR$/app/App_Resources/Android/src/main/res/values/colors.xml" />
-        <option value="$PROJECT_DIR$/app/detail/detail-page.xml" />
-        <option value="$PROJECT_DIR$/app/Pages/home/home-page.js" />
-        <option value="$PROJECT_DIR$/app/app-root.xml" />
-        <option value="$PROJECT_DIR$/app/museo/museo.js" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
-    <option name="width" value="981" />
-    <option name="height" value="1032" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="MuseoNavale" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MuseoNavale" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MuseoNavale" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MuseoNavale" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MuseoNavale" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MuseoNavale" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="App_Resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MuseoNavale" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MuseoNavale" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="App_Resources" type="462c0819:PsiDirectoryNode" />
-              <item name="Android" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MuseoNavale" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MuseoNavale" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="App_Resources" type="462c0819:PsiDirectoryNode" />
-              <item name="Android" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MuseoNavale" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MuseoNavale" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="App_Resources" type="462c0819:PsiDirectoryNode" />
-              <item name="Android" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MuseoNavale" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MuseoNavale" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="detail" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MuseoNavale" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MuseoNavale" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="museo" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectId" id="1qbzVuYx4HzpDeNbS2QWUuXy2qj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="js.ns.project" value="true" />
@@ -159,31 +150,21 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ciro\WebstormProjects\MuseoNavale\app\Pages" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="C:\Users\ciro\WebstormProjects\MuseoNavale\app" />
       <recent name="C:\Users\ciro\WebstormProjects\MuseoNavale\app\App_Resources\Android\src\main\res\drawable-xxxhdpi" />
       <recent name="C:\Users\ciro\WebstormProjects\MuseoNavale\app\App_Resources\Android\src\main\res\drawable-xxhdpi" />
       <recent name="C:\Users\ciro\WebstormProjects\MuseoNavale\app\App_Resources\Android\src\main\res\drawable-xhdpi" />
-      <recent name="C:\Users\ciro\WebstormProjects\MuseoNavale\app\App_Resources\Android\src\main\res\drawable-mdpi" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\ciro\WebstormProjects\MuseoNavale\app\Pages" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -210,6 +191,12 @@
       <workItem from="1559320749207" duration="1935000" />
       <workItem from="1559415600254" duration="1138000" />
       <workItem from="1559467407232" duration="612000" />
+      <workItem from="1617363107576" duration="1873000" />
+      <workItem from="1617698976368" duration="97000" />
+      <workItem from="1617699168940" duration="1527000" />
+      <workItem from="1617700717507" duration="3000" />
+      <workItem from="1617701037760" duration="7947000" />
+      <workItem from="1617896436136" duration="302000" />
     </task>
     <task id="LOCAL-00001" summary="new version app">
       <created>1557916249229</created>
@@ -256,57 +243,8 @@
     <option name="localTasksCounter" value="7" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42001000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22834007" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="npm" order="2" side_tool="true" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32960895" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32960895" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.29608938" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Nativescript Palette" order="3" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25506073" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="npm" order="2" side_tool="true" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32960895" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32960895" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.29608938" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Nativescript Palette" order="3" />
-    </layout-to-restore>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
@@ -318,127 +256,51 @@
       </list>
     </option>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new version app" />
     <MESSAGE value="color navigation bar&#10;upgrade velocity detail page" />
     <option name="LAST_COMMIT_MESSAGE" value="color navigation bar&#10;upgrade velocity detail page" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/home/home-view-model.js" />
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/App_Resources/Android/src/main/res/drawable-ldpi/icon.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/App_Resources/Android/src/main/res/drawable-xxxhdpi/icon.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/App_Resources/Android/src/main/res/drawable-xxxhdpi/logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/App_Resources/Android/src/main/res/drawable-xxxhdpi/background.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1965" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/App_Resources/Android/src/main/res/drawable-hdpi/logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/App_Resources/Android/src/main/res/drawable-nodpi/splash_screen.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/images/logo_museo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/App_Resources/Android/src/main/res/drawable-xxxhdpi/logo_museo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Pages/room/room.js" />
-    <entry file="file://$PROJECT_DIR$/app/Pages/explore/explore.xml" />
-    <entry file="file://$PROJECT_DIR$/app/Pages/tour/tour.xml" />
-    <entry file="file://$PROJECT_DIR$/app/App_Resources/Android/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="27" column="69" lean-forward="true" selection-start-line="27" selection-start-column="69" selection-end-line="27" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/App_Resources/Android/src/main/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/App_Resources/iOS/Info.plist">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Pages/room/room.xml" />
-    <entry file="file://$PROJECT_DIR$/app/Pages/load/load.js" />
-    <entry file="file://$PROJECT_DIR$/app/Pages/load/load.xml" />
-    <entry file="file://$PROJECT_DIR$/app/Pages/detail/detail-page.xml" />
-    <entry file="file://$PROJECT_DIR$/app/Pages/museo/museo.js" />
-    <entry file="file://$PROJECT_DIR$/app/Pages/tours/tours.xml" />
-    <entry file="file://$PROJECT_DIR$/app/Pages/museo/museo.xml" />
-    <entry file="file://$PROJECT_DIR$/app/Pages/explore/explore.js" />
-    <entry file="file://$PROJECT_DIR$/app/Pages/tour/tour.js" />
-    <entry file="file://$PROJECT_DIR$/app/images/qr-code.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Pages/detail/detail-page.js" />
-    <entry file="file://$PROJECT_DIR$/app/Pages/tours/tours.js" />
-    <entry file="file://$PROJECT_DIR$/app/App_Resources/Android/app.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/App_Resources/Android/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Pages/home/home-page.js" />
-    <entry file="file://$PROJECT_DIR$/app/Pages/home/home-page.xml" />
-    <entry file="file://$PROJECT_DIR$/app/Pages/intro/intro.xml" />
-    <entry file="file://$PROJECT_DIR$/app/Pages/intro/intro.js" />
-    <entry file="file://$PROJECT_DIR$/app/app-root.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" selection-start-column="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/detail/detail-page.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/museo/museo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="42" column="171" selection-start-line="42" selection-start-column="171" selection-end-line="42" selection-end-column="171" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/App_Resources/Android/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="27" column="32" lean-forward="true" selection-start-line="27" selection-start-column="32" selection-end-line="28" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state width="1396" height="203" key="GridCell.Tab.0.bottom" timestamp="1617365282711">
+      <screen x="0" y="25" width="1440" height="807" />
+    </state>
+    <state width="1396" height="203" key="GridCell.Tab.0.bottom/0.25.1440.804@0.25.1440.804" timestamp="1617363161559" />
+    <state width="1396" height="203" key="GridCell.Tab.0.bottom/0.25.1440.807@0.25.1440.807" timestamp="1617365282711" />
+    <state width="1396" height="203" key="GridCell.Tab.0.center" timestamp="1617365282710">
+      <screen x="0" y="25" width="1440" height="807" />
+    </state>
+    <state width="1396" height="203" key="GridCell.Tab.0.center/0.25.1440.804@0.25.1440.804" timestamp="1617363161557" />
+    <state width="1396" height="203" key="GridCell.Tab.0.center/0.25.1440.807@0.25.1440.807" timestamp="1617365282710" />
+    <state width="1396" height="203" key="GridCell.Tab.0.left" timestamp="1617365282709">
+      <screen x="0" y="25" width="1440" height="807" />
+    </state>
+    <state width="1396" height="203" key="GridCell.Tab.0.left/0.25.1440.804@0.25.1440.804" timestamp="1617363161556" />
+    <state width="1396" height="203" key="GridCell.Tab.0.left/0.25.1440.807@0.25.1440.807" timestamp="1617365282709" />
+    <state width="1396" height="203" key="GridCell.Tab.0.right" timestamp="1617365282710">
+      <screen x="0" y="25" width="1440" height="807" />
+    </state>
+    <state width="1396" height="203" key="GridCell.Tab.0.right/0.25.1440.804@0.25.1440.804" timestamp="1617363161558" />
+    <state width="1396" height="203" key="GridCell.Tab.0.right/0.25.1440.807@0.25.1440.807" timestamp="1617365282710" />
+    <state x="385" y="154" width="670" height="676" key="search.everywhere.popup" timestamp="1617364403641">
+      <screen x="0" y="25" width="1440" height="805" />
+    </state>
+    <state x="385" y="154" width="670" height="676" key="search.everywhere.popup/0.25.1440.805@0.25.1440.805" timestamp="1617364403641" />
+    <state x="690" y="266" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1617896453475">
+      <screen x="0" y="25" width="1440" height="800" />
+    </state>
+    <state x="690" y="266" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.25.1440.800/1440.25.1920.1055@0.25.1440.800" timestamp="1617896453475" />
   </component>
 </project>

@@ -8,7 +8,7 @@ let viewModel;
 let page;
 let items;
 
-function onNavigatingTo(args) {
+exports.onNavigatingTo = function(args) {
     page = args.object;
 
     items = new ObservableArray();
@@ -32,7 +32,8 @@ function onNavigatingTo(args) {
 
     page.bindingContext = viewModel;
 }
-function onTap(args) {
+
+exports.onTap = function(args) {
     const index = args.index;
 
     let temp = new ObservableArray();
@@ -50,6 +51,3 @@ function onTap(args) {
 
     page.frame.navigate(nav);
 }
-
-exports.onTap = onTap;
-exports.onNavigatingTo = onNavigatingTo;

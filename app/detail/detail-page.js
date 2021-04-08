@@ -2,15 +2,14 @@ const observableModule = require("tns-core-modules/data/observable");
 let Observable = require("tns-core-modules/data/observable");
 let ObservableArray = require("tns-core-modules/data/observable-array").ObservableArray;
 const audio = require('nativescript-audio-player');
-let TextToSpeech = require('nativescript-texttospeech');
+//let TextToSpeech = require('nativescript-texttospeech');
 let application = require("tns-core-modules/application");
 let fs = require("tns-core-modules/file-system");
 let device = require("tns-core-modules/platform");
 let timer = require("tns-core-modules/timer");
-if(device.isAndroid){
-    var ringer = require("nativescript-ringer");
-}
-var dialogs = require("tns-core-modules/ui/dialogs");
+//let ringer = require("nativescript-ringer");
+
+let dialogs = require("tns-core-modules/ui/dialogs");
 
 let viewModel;
 let data = new ObservableArray();
@@ -28,14 +27,14 @@ let testo = "Loremipsum dolor sit amet, consectetur adipiscing elit, sed do eius
     " Pulvinar sapien et ligula ullamcorper malesuada proin libero nunc consequat.";
 let index = 0;
 
-function onNavigatingTo(args) {
+exports.onNavigatingTo = function(args) {
     page = args.object;
 
     viewModel = observableModule.fromObject({});
 
-    player = new audio.TNSPlayer();
-    TTS = new TextToSpeech.TNSTextToSpeech();
-    TTS.speak({text:''});
+    //player = new audio.TNSPlayer();
+    //TTS = new TextToSpeech.TNSTextToSpeech();
+    //TTS.speak({text:''});
 
     if(device.isIOS){
         viewModel.set("ios_bar", "visible");
@@ -44,10 +43,10 @@ function onNavigatingTo(args) {
     else
     {
         viewModel.set("ios_bar", "collapsed");
-        ringer.setMode("vibrate");
+        //ringer.setMode("vibrate");
     }
 
-    if(page.navigationContext.page == "tour" || page.navigationContext.page == "room"){
+    if(page.navigationContext.page === "tour" || page.navigationContext.page === "room"){
         viewModel.set("tour_visibility", "visible");
         viewModel.set("no_tour_visibility", "collapsed");
 
@@ -76,7 +75,7 @@ function set_items(data){
     viewModel.set("codice", data.id);
     viewModel.set("titolo",data.title);
 
-    TTS.speak({text:''});
+    //TTS.speak({text:''});
 
     if((data.title).startsWith("Intro")){
         viewModel.set("codice_visibility", "collapsed");
@@ -91,7 +90,8 @@ function set_items(data){
     let file = fs.path.join(folder.path, "/assets/zip/file/MuseoNavale/") + "/" + data.audio;
     //console.log(file);
 
-    if(data.audio != "") {
+    /*
+    if(data.audio !== "") {
         playerOptions = {
             audioFile: file,
             loop: false,
@@ -101,7 +101,7 @@ function set_items(data){
                 viewModel.set("play_image", "~/images/play.png");
                 viewModel.set("value", "0");
                 timer.clearInterval(time);
-                if(page.navigationContext.page == "tour" || page.navigationContext.page == "room") {
+                if(page.navigationContext.page === "tour" || page.navigationContext.page === "room") {
                     next();
                 }
             },
@@ -146,7 +146,7 @@ function set_items(data){
 
                 finishedCallback: function () {
                     console.log("Finito!!");
-                    if(page.navigationContext.page == "tour" || page.navigationContext.page == "room") {
+                    if(page.navigationContext.page === "tour" || page.navigationContext.page === "room") {
                         next();
                     }
                 }
@@ -162,19 +162,20 @@ function set_items(data){
                     console.log("Finito!!");
                     viewModel.set("play_image", "~/images/play.png");
 
-                    if(page.navigationContext.page == "tour" || page.navigationContext.page == "room") {
+                    if(page.navigationContext.page === "tour" || page.navigationContext.page === "room") {
                         next();
                     }
                 }
             };
         }
     }
+     */
 
-    var images = new ObservableArray();
+    let images = new ObservableArray();
     images.push({
         "image": data.image
     });
-    if(data.other_image != ""){
+    if(data.other_image !== ""){
         let other_image = data.other_image.split(",");
         for(let i=0; i<other_image.length; i++)
         {
@@ -195,6 +196,7 @@ exports.myScrollingEvent = function(args) {
     console.log('Scrolling: ' + args.state.offset);
 };*/
 
+/*
 function play_audio() {
     if(viewModel.get("play_image") === "~/images/play.png"){
         play();
@@ -211,7 +213,7 @@ function play_audio() {
 }
 
 function play(){
-    if(data.audio != "") {
+    if(data.audio !== "") {
         player.play();
 
         if(device.isIOS){
@@ -268,7 +270,7 @@ function msToTimeIOS(sec) {
 
 function pause() {
     console.log("pause");
-    if (data.audio != "")
+    if (data.audio !== "")
         player.pause();
     else{
         TTS.pause();
@@ -277,7 +279,7 @@ function pause() {
 
 function resume() {
     console.log("resume");
-    if (data.audio != "")
+    if (data.audio !== "")
         player.resume();
     else{
         TTS.resume();
@@ -294,18 +296,6 @@ if(device.isAndroid){
     });
 }
 
-function backHome(){
-    TTS.speak({text:''});
-    //TTS.pause();
-    TTS.destroy();
-    player.dispose();
-    timer.clearInterval(time);
-    if(device.isAndroid)
-        ringer.setMode("normal");
-
-    page.frame.goBack();
-};
-
 exports.onSliderLoaded = function (args) {
     const slider = args.object;
 
@@ -317,8 +307,28 @@ exports.onSliderLoaded = function (args) {
     });
 };
 
-function next(){
-    if(index == page.navigationContext.all_items.length - 1){
+exports.play_audio = play_audio;
+exports.backHome = backHome;
+exports.play = play;
+exports.pause = pause;
+exports.resume = resume;
+ */
+
+function backHome(){
+    //TTS.speak({text:''});
+    //TTS.pause();
+    //TTS.destroy();
+    //player.dispose();
+    timer.clearInterval(time);
+    //if(device.isAndroid)
+    //    ringer.setMode("normal");
+
+    page.frame.goBack();
+}
+exports.backHome = backHome;
+
+exports.next = function(){
+    if(index === page.navigationContext.all_items.length - 1){
         let title;
         let message;
         if(page.navigationContext.page === "room"){
@@ -342,12 +352,12 @@ function next(){
         });
     }
     else {
-        if (data.audio != "") {
-            player.pause();
+        if (data.audio !== "") {
+            //player.pause();
             timer.clearInterval(time);
         }
         else{
-            TTS.pause();
+            //TTS.pause();
         }
 
         index = index + 1;
@@ -356,17 +366,17 @@ function next(){
     }
 }
 
-function back(){
-    if(index == 0){
+exports.back = function(){
+    if(index === 0){
         backHome();
     }
     else {
-        if (data.audio != "") {
-            player.pause();
+        if (data.audio !== "") {
+            //player.pause();
             timer.clearInterval(time);
         }
         else{
-            TTS.pause();
+            //TTS.pause();
         }
 
         index = index - 1;
@@ -374,12 +384,3 @@ function back(){
         set_items(data);
     }
 }
-
-exports.back = back;
-exports.next = next;
-exports.play_audio = play_audio;
-exports.backHome = backHome;
-exports.play = play;
-exports.pause = pause;
-exports.resume = resume;
-exports.onNavigatingTo = onNavigatingTo;

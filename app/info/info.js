@@ -1,11 +1,8 @@
-const ObservableArray = require("tns-core-modules/data/observable-array").ObservableArray;
 const Observable = require("tns-core-modules/data/observable");
 var utilityModule = require("tns-core-modules/utils/utils");
-var frameModule = require("tns-core-modules/ui/frame");
 var appversion = require("nativescript-appversion");
 
-function pageLoaded(args)
-{
+exports.pageLoaded = function(args) {
     const page = args.object;
     const info = new Observable.fromObject({});
     appversion.getVersionName().then(function(v) {
@@ -16,33 +13,6 @@ function pageLoaded(args)
     page.bindingContext = info;
 }
 
-exports.pageLoaded = pageLoaded;
-
-function meteo_web(args)
-{
+exports.web = function() {
     utilityModule.openUrl("https://museonavale.uniparthenope.it");
 }
-exports.meteo_web = meteo_web;
-
-const Button = require("tns-core-modules/ui/button").Button;
-const Page = require("tns-core-modules/ui/page").Page;
-
-/*
-function onTapCopy(args)
-{
-    var button = args.object;
-    const page = button.page;
-
-    page.frame.navigate("copyrights/copyrights-page");
-}
-exports.onTapCopy = onTapCopy;
-
-function onTapDisclaimer(args)
-{
-    var button = args.object;
-    const page = button.page;
-
-    page.frame.navigate("disclaimer/disclaimer-page");
-}
-exports.onTapDisclaimer = onTapDisclaimer;
-*/

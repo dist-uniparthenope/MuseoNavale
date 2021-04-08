@@ -4,6 +4,7 @@ let Observable = require("tns-core-modules/data/observable");
 let ObservableArray = require("tns-core-modules/data/observable-array").ObservableArray;
 const appSetting = require("tns-core-modules/application-settings");
 let Fresco = require("nativescript-fresco");
+let device = require("tns-core-modules/platform");
 
 let viewModel;
 let page;
@@ -11,7 +12,7 @@ let items;
 let data = new ObservableArray();
 let index;
 
-function onNavigatingTo(args) {
+exports.onNavigatingTo = function(args) {
     page = args.object;
 
     items = new ObservableArray();
@@ -20,7 +21,8 @@ function onNavigatingTo(args) {
         items:items
     });
 
-    Fresco.initialize();
+    if (device.isAndroid)
+        Fresco.initialize();
 
     data = page.navigationContext.data;
     index = page.navigationContext.index;
@@ -28,6 +30,7 @@ function onNavigatingTo(args) {
 
     let documents = fs.knownFolders.currentApp();
     let url_main = documents.getFolder("/assets/zip/file/MuseoNavale");
+    console.log(url_main);
     let fileJson = url_main.getFile(appSetting.getString("fileJson"));
     fileJson.readText().then(function (data1) {
         let jsonData = JSON.parse(data1);
@@ -35,7 +38,9 @@ function onNavigatingTo(args) {
             let img_name = jsonData['rooms'][index]['items'][j]['field_image'];
             let path_img = url_main.path + "/" +img_name;
 
-            if(img_name != ""){
+            console.log(jsonData['rooms'][index]['items'][j]['title']);
+
+            if(img_name !== ""){
                 items.push({
                     "id" : jsonData['rooms'][index]['items'][j]['nid'],
                     "title": jsonData['rooms'][index]['items'][j]['title'],
@@ -43,7 +48,7 @@ function onNavigatingTo(args) {
                     "other_image": jsonData['rooms'][index]['items'][j]['field_other_image'],
                     "audio": jsonData['rooms'][index]['items'][j]['field_audio'],
                     "number_tour" : jsonData['rooms'][index]['items'][j]['field_number_tour'],
-                    "description": jsonData['rooms'][index]['items'][j]['field_description']
+                    "description": jsonData['rooms'][index]['items'][j]['body']
                 });
             }
             else{
@@ -54,7 +59,7 @@ function onNavigatingTo(args) {
                     "other_image": "",
                     "audio": jsonData['rooms'][index]['items'][j]['field_audio'],
                     "number_tour" : jsonData['rooms'][index]['items'][j]['field_number_tour'],
-                    "description": jsonData['rooms'][index]['items'][j]['field_description']
+                    "description": jsonData['rooms'][index]['items'][j]['body']
                 })
             }
 
@@ -70,7 +75,7 @@ function onNavigatingTo(args) {
     page.bindingContext = viewModel;
 }
 
-function onTap(args) {
+exports.onTap = function(args) {
     const index = args.index;
 
     let all_items = new ObservableArray();
@@ -89,6 +94,3 @@ function onTap(args) {
 
     page.frame.navigate(nav);
 }
-
-exports.onTap = onTap;
-exports.onNavigatingTo = onNavigatingTo;

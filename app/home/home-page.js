@@ -1,6 +1,5 @@
 const observableModule = require("tns-core-modules/data/observable");
 let fs = require("tns-core-modules/file-system");
-let Observable = require("tns-core-modules/data/observable");
 let device = require("tns-core-modules/platform");
 let ObservableArray = require("tns-core-modules/data/observable-array").ObservableArray;
 const appSetting = require("tns-core-modules/application-settings");
@@ -11,7 +10,7 @@ let viewModel;
 let page;
 let items;
 
-function onNavigatingTo(args) {
+exports.onNavigatingTo = function(args) {
     page = args.object;
 
     items = new ObservableArray();
@@ -34,7 +33,7 @@ function onNavigatingTo(args) {
             let path_img = url_main.path + "/" +img_name;
             let title = jsonData['items'][i]['title'];
 
-            if(img_name != "") {
+            if(img_name !== "") {
                 items.push({
                     "id": jsonData['items'][i]['nid'],
                     "image": path_img,
@@ -60,7 +59,7 @@ function onNavigatingTo(args) {
     page.bindingContext = viewModel;
 }
 
-function QRCode(){
+exports.QRCode = function(){
     barcodescanner.hasCameraPermission().then(permitted => {
         if(permitted)
             scan();
@@ -102,7 +101,7 @@ function scan(){
                 let found = false;
                 let temp = new ObservableArray();
                 for(let i=0; i<items.length; i++) {
-                    if(items.getItem(i).id == result.text){
+                    if(items.getItem(i).id === result.text){
                         found = true;
                         temp.push(items.getItem(i));
                         break;
@@ -135,30 +134,22 @@ function scan(){
     );
 }
 
-function about() {
+exports.about = function() {
     page.frame.navigate("info/info");
 }
 
-function rooms(){
+exports.rooms = function(){
     page.frame.navigate("rooms/rooms");
 }
 
-function explore(){
+exports.explore = function(){
     page.frame.navigate("explore/explore");
 }
 
-function tour(){
+exports.tour = function(){
     page.frame.navigate("tours/tours");
 }
 
-function info(){
+exports.info = function(){
     page.frame.navigate("museo/museo");
 }
-
-exports.info = info;
-exports.tour = tour;
-exports.explore = explore;
-exports.about = about;
-exports.rooms = rooms;
-exports.QRCode = QRCode;
-exports.onNavigatingTo = onNavigatingTo;

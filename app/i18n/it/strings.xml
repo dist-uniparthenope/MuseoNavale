@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">museonavale@Uniparthenope</string>
+    <string name="title_activity_kimera">museonavale@Uniparthenope</string>
+
+    <!-- INTRO -->
+    <string name="testo_intro">Clicca sulla bandiera per proseguire</string>
+    <string name="intro">Benvenuto</string>
+    <string name="caricamento">Caricamento Database</string>
+
+    <!-- HOME -->
+    <string name="home_scan">Scan</string>
+    <string name="home_museo">Museo</string>
+    <string name="home_sale">Sale</string>
+    <string name="home_tour">Tour</string>
+    <string name="home_ricerca">Ricerca</string>
+    <string name="home_info">Info</string>
+
+    <!-- INFO -->
+    <string name="info_version">Versione</string>
+    <string name="info_dipartimento">Dipartimento di Scienze e Tecnologie, Università degli Studi di Napoli Parthenope</string>
+    <string name="info_sviluppatori">Sviluppo: Ciro Giuseppe De Vita, Alberto Greco, Gennaro Mellone</string>
+    <string name="info_logo">Logo: Francesco Peluso</string>
+    <string name="info_manager">Responsabile Scientifico: Prof. Antonio Scamardella</string>
+
+    <!-- Museo -->
+    <string name="museo_telefono">Telefono:</string>
+
+    <!-- Ricerca -->
+    <string name="search_bar">Ricerca....</string>
+
+    <!-- Sale -->
+    <string name="sale_titolo">Sale</string>
+    <string name="sale_sottotitolo">Clicca su una sala</string>
+
+    <!-- Dettagli -->
+    <string name="detail_back">PRECEDENTE</string>
+    <string name="detail_next">SUCCESSIVO</string>
+</resources>

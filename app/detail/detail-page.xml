@@ -15,9 +15,9 @@
             <Image src="~/images/no_image.png" marginBottom="5" marginLeft="5" marginTop="5" horizontalAlignment="left" width="30" tap="backHome" />
         </StackLayout>
         <GridLayout verticalAlignment="top"  visibility="{{ tour_visibility }}" marginTop="5" ios:marginLeft="5" ios:marginRight="5">
-            <Button horizontalAlignment="left" text="{{_L('detail_back')}}" color="#aaaaaa" backgroundColor="rgba(64,43,18,0.8)" tap="back" />
+            <Button horizontalAlignment="left" text="{{L('detail_back')}}" color="#aaaaaa" backgroundColor="rgba(64,43,18,0.8)" tap="back" />
             <Label class="roomNumber" text="{{ codice }}" width="20%" visibility="{{ codice_visibility }}" horizontalAlignment="center" color="#aaaaaa" verticalAlignment="bottom"/>
-            <Button horizontalAlignment="right" text="{{_L('detail_next')}}" color="#aaaaaa" backgroundColor="rgba(64,43,18,0.8)" tap="next"/>
+            <Button horizontalAlignment="right" text="{{L('detail_next')}}" color="#aaaaaa" backgroundColor="rgba(64,43,18,0.8)" tap="next"/>
         </GridLayout>
         <GridLayout verticalAlignment="top"  visibility="{{ no_tour_visibility }}" marginTop="5">
             <Label class="roomNumber" text="{{ codice }}" width="20%" horizontalAlignment="center" color="#aaaaaa" verticalAlignment="bottom"/>
@@ -25,7 +25,8 @@
 
         <GridLayout>
             <StackLayout verticalAlignment="top" height="50%" marginTop="10">
-                <Label backgroundColor="rgba(0,0,0,0.3)" color="#bbbbbb" text="{{ titolo }}" fontSize="24" textAlignment="center" verticalAlignment="top" textWrap="true" class="optimusFont"></Label>
+                <Label backgroundColor="rgba(0,0,0,0.3)" color="#bbbbbb" text="{{ titolo }}" fontSize="24"
+                       textAlignment="center" verticalAlignment="top" textWrap="true" class="optimusFont"/>
 
                 <GridLayout>
                     <ns:Carousel id="myCarousel" items="{{ images }}" color="white" indicatorColorUnselected="#50d9bb84"
@@ -48,8 +49,9 @@
             </StackLayout>
 
             <StackLayout orientation="vertical" verticalAlignment="bottom" marginTop="30">
-                <ScrollView height="40%">
-                    <Label verticalAlignment="center" text="{{ text }}" color="white" autocorrect="false" textAlignment="center" textWrap="true"></Label>
+                <ScrollView height="40%" verticalAlignment="center" horizontalAlignment="center">
+                    <HtmlView html="{{text}}" autocorrect="false" backgroundColor="#d9bb84"
+                              textAlignment="center" textWrap="true"/>
                 </ScrollView>
 
                 <StackLayout verticalAlignment="bottom" orientation="vertical" marginTop="10" backgroundColor="rgba(0,0,0,0.3)">

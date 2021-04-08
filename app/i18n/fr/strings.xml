@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">museonavale@Uniparthenope</string>
+    <string name="title_activity_kimera">museonavale@Uniparthenope</string>
+
+    <!-- INTRO -->
+    <string name="testo_intro">Cliquez sur le drapeau pour continuer</string>
+    <string name="intro">Bienvenue</string>
+    <string name="caricamento">Chargement Database</string>
+
+    <!-- HOME -->
+    <string name="home_scan">Scan</string>
+    <string name="home_museo">Musée</string>
+    <string name="home_sale">Halls</string>
+    <string name="home_tour">Tour</string>
+    <string name="home_ricerca">Recherche</string>
+    <string name="home_info">Info</string>
+
+    <!-- INFO -->
+    <string name="info_version">Version</string>
+    <string name="info_dipartimento">Département des sciences et de la technologie, université Parthénope de Naples</string>
+    <string name="info_sviluppatori">Développement: Ciro Giuseppe De Vita, Alberto Greco, Gennaro Mellone</string>
+    <string name="info_logo">Logo: Francesco Peluso</string>
+    <string name="info_manager">Responsable Scientifique: Prof. Antonio Scamardella</string>
+
+    <!-- Museo -->
+    <string name="museo_telefono">Phone:</string>
+
+    <!-- Ricerca -->
+    <string name="search_bar">Recherche....</string>
+
+    <!-- Sale -->
+    <string name="sale_titolo">Hallls</string>
+    <string name="sale_sottotitolo"> </string>
+
+    <!-- Dettagli -->
+    <string name="detail_back">PRECEDENT</string>
+    <string name="detail_next">SUIVANT</string>
+</resources>

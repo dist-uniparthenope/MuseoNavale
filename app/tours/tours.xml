@@ -9,7 +9,7 @@
         <ScrollView height="100%">
             <ListView class="list-group" items="{{ items }}" itemTap="onTap" orientation="vertical">
                 <ListView.itemTemplate>
-                    <FlexboxLayout flexDirection="row" class="list-group-item;">
+                    <FlexboxLayout flexDirection="row" class="list-group-item">
                         <StackLayout flexGrow="1" orientation="vertical" marginBottom="20" marginRight="5" marginLeft="5"  marginTop="10" backgroundColor="rgba(0,0,0,0.3)">
                             <GridLayout height="128">
                                 <Image row="0" src="{{ image }}" stretch="aspectFill"/>

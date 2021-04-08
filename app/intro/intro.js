@@ -1,14 +1,14 @@
-const observableModule = require("tns-core-modules/data/observable");
-const appSetting = require("tns-core-modules/application-settings");
+let observableModule = require("tns-core-modules/data/observable");
+let appSetting = require("tns-core-modules/application-settings");
 let fs = require("tns-core-modules/file-system");
 let device = require("tns-core-modules/platform");
-const connectivityModule = require("tns-core-modules/connectivity");
-var dialogs = require("tns-core-modules/ui/dialogs");
+let connectivityModule = require("tns-core-modules/connectivity");
+let dialogs = require("tns-core-modules/ui/dialogs");
 
 let viewModel;
 let page;
 
-function onNavigatingTo(args) {
+exports.onNavigatingTo = function(args) {
     page = args.object;
 
     viewModel = observableModule.fromObject({});
@@ -27,7 +27,7 @@ function onNavigatingTo(args) {
     page.bindingContext = viewModel;
 }
 
-function benvenuto(){
+exports.benvenuto = function(){
     viewModel.set("button_enabled", false);
 
     let doc = fs.knownFolders.currentApp().path;
@@ -37,8 +37,8 @@ function benvenuto(){
     else{
         const myConnectionType = connectivityModule.getConnectionType();
         console.log(myConnectionType);
-        if(myConnectionType == "1" || myConnectionType == "2"){
-            fetch("http://museonavale.uniparthenope.it:5000/version").then((response) => response.json()).then((data) =>{
+        if(myConnectionType === 1 || myConnectionType === 2){
+            fetch(global.url + "/version").then((response) => response.json()).then((data) =>{
                 let documents = fs.knownFolders.currentApp();
                 let url_main = documents.getFolder("/assets/zip/file/MuseoNavale");
                 let fileJson = url_main.getFile(appSetting.getString("fileJson"));
@@ -48,7 +48,7 @@ function benvenuto(){
                     let version_web = data.version;
                     console.log("Version Web: " + version_web);
                     console.log("My Version : " + version);
-                    if(version != version_web){
+                    if(version.toString() !== version_web.toString()){
                         dialogs.confirm({
                             title: "Aggiornamento!!",
                             message: "E' disponibile un nuovo aggiornamento. Scaricarlo?",
@@ -77,6 +77,3 @@ function benvenuto(){
         }
     }
 }
-
-exports.benvenuto = benvenuto;
-exports.onNavigatingTo = onNavigatingTo;

@@ -4,7 +4,7 @@ let ObservableArray = require("tns-core-modules/data/observable-array").Observab
 let fs = require("tns-core-modules/file-system");
 const appSetting = require("tns-core-modules/application-settings");
 let platformModule = require("tns-core-modules/platform");
-let phone = require( "nativescript-phone" );
+let phone = require("nativescript-phone");
 let utilityModule = require("tns-core-modules/utils/utils");
 let email = require("nativescript-email");
 let Directions = require("nativescript-directions").Directions;
@@ -16,7 +16,7 @@ let giorni_it = ["Domenica", "Lunedì", "Martedì", "Mercoledì", "Giovedì", "V
 let giorni_en = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 let giorni_fr = ["Dimanche", "Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi"];
 
-function onNavigatingTo(args) {
+exports.onNavigatingTo = function(args) {
     page = args.object;
 
     items = new ObservableArray();
@@ -38,7 +38,7 @@ function onNavigatingTo(args) {
         console.log(jsonData['orari']);
         console.log(data.getDay());
 
-        if(jsonData['orari'][data.getDay()]["orari"][0]["apertura"] != "N/A")
+        if(jsonData['orari'][data.getDay()]["orari"][0]["apertura"] !== "N/A")
         {
             if((data.getHours() < jsonData['orari'][data.getDay()]["orari"][0]["apertura"] || data.getHours() > jsonData['orari'][data.getDay()]["orari"][0]["chiusura"])){
                 if((platformModule.device.language).includes("it"))
@@ -68,7 +68,7 @@ function onNavigatingTo(args) {
 
         for(let i=0; i<jsonData['orari'].length; i++){
             if((platformModule.device.language).includes("it")) {
-                if (jsonData['orari'][i]["orari"][0]["apertura"] != "N/A") {
+                if (jsonData['orari'][i]["orari"][0]["apertura"] !== "N/A") {
                     items.push({
                         "giorno": giorni_it[i],
                         "min": jsonData["orari"][i]["orari"][0]["apertura"] + ":00 - ",
@@ -83,7 +83,7 @@ function onNavigatingTo(args) {
                 }
             }
             else if((platformModule.device.language).includes("en")) {
-                if (jsonData['orari'][i]["orari"][0]["apertura"] != "N/A") {
+                if(jsonData['orari'][i]["orari"][0]["apertura"] !== "N/A"){
                     items.push({
                         "giorno": giorni_en[i],
                         "min": jsonData["orari"][i]["orari"][0]["apertura"] + ":00 - ",
@@ -98,7 +98,7 @@ function onNavigatingTo(args) {
                 }
             }
             else if((platformModule.device.language).includes("fr")) {
-                if (jsonData['orari'][i]["orari"][0]["apertura"] != "N/A") {
+                if (jsonData['orari'][i]["orari"][0]["apertura"] !== "N/A") {
                     items.push({
                         "giorno": giorni_fr[i],
                         "min": jsonData["orari"][i]["orari"][0]["apertura"] + ":00 - ",
@@ -113,7 +113,7 @@ function onNavigatingTo(args) {
                 }
             }
             else{
-                if (jsonData['orari'][i]["orari"][0]["apertura"] != "N/A") {
+                if (jsonData['orari'][i]["orari"][0]["apertura"] !== "N/A") {
                     items.push({
                         "giorno": giorni_en[i],
                         "min": jsonData["orari"][i]["orari"][0]["apertura"] + ":00 - ",
@@ -133,20 +133,20 @@ function onNavigatingTo(args) {
     page.bindingContext = viewModel;
 }
 
-function openPhone(){
+exports.openPhone = function(){
     let number = viewModel.get("telephon_number");
     phone.dial(number, true);
 }
 
-function web() {
+exports.web = function() {
     utilityModule.openUrl("https://museonavale.uniparthenope.it");
 }
 
-function openFb() {
+exports.openFb = function() {
     utilityModule.openUrl("https://www.facebook.com/alviani.antonio/");
 }
 
-function openEmail(){
+exports.openEmail = function(){
     email.compose({
         subject: '',
         body: '',
@@ -159,7 +159,7 @@ function openEmail(){
         });
 }
 
-function openMap(){
+exports.openMap = function(){
     let directions = new Directions();
 
     directions.navigate({
@@ -177,10 +177,3 @@ function openMap(){
         console.log(error);
     });
 }
-
-exports.openFb = openFb;
-exports.openMap = openMap;
-exports.openEmail = openEmail;
-exports.web = web;
-exports.openPhone = openPhone;
-exports.onNavigatingTo = onNavigatingTo;

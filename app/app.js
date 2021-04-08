@@ -1,13 +1,16 @@
-let device = require("tns-core-modules/platform");
-
 const application = require("tns-core-modules/application");
-if((device.device.language).includes("it"))
-    require('tns-i18n')('it');
-else if((device.device.language).includes("en"))
-    require('tns-i18n')('en');
-else if((device.device.language).includes("fr"))
-    require('tns-i18n')('fr');
-else
-    require('tns-i18n')('en');
+let device = require("tns-core-modules/platform");
+require('globals');
+require('nativescript-i18n');
+
+//let domain = "http://museonavale.uniparthenope.it:5000";
+let domain;
+if(device.isAndroid){
+     domain = "http://10.0.2.2:5000";
+}
+else{
+    domain = "http://127.0.0.1:5000";
+}
+global.url = domain;
 
 application.run({ moduleName: "app-root" });

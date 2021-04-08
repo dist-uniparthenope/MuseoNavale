@@ -9,15 +9,15 @@
         <StackLayout orientation="vertical">
             <Image src="~/images/logo.png" width="70%" horizontalAlignment="center" margin="20 20 20 20"></Image>
             <StackLayout orientation="horizontal" horizontalAlignment="center" marginTop="5">
-                <Label text="{{ _L('info_version') }}" marginRight="10" color="white"></Label>
+                <Label text="{{ L('info_version') }}" marginRight="10" color="white"></Label>
                 <Label text="{{version}}" color="white"></Label>
             </StackLayout>
-            <Label class="TimelessFont" textAlignment="center" textWrap="true" text="https://museonavale.uniparthenope.it" marginTop="5" color="blue" tap="meteo_web"></Label>
-            <Label class="TimelessFont_Bold" textAlignment="center" textWrap="true" color="white" text="{{ _L('info_dipartimento') }}" marginTop="10"></Label>
-            <Label class="TimelessFont" textAlignment="center" textWrap="true" color="white" text="{{ _L('info_manager') }}" marginTop="10"></Label>
+            <Label class="TimelessFont" textAlignment="center" textWrap="true" text="https://museonavale.uniparthenope.it" marginTop="5" color="blue" tap="web"></Label>
+            <Label class="TimelessFont_Bold" textAlignment="center" textWrap="true" color="white" text="{{ L('info_dipartimento') }}" marginTop="10"></Label>
+            <Label class="TimelessFont" textAlignment="center" textWrap="true" color="white" text="{{ L('info_manager') }}" marginTop="10"></Label>
             <Label class="TimelessFont" textAlignment="center" textWrap="true" color="white" text="Team leader: Prof. Raffaele Montella" marginTop="10"></Label>
-            <Label class="TimelessFont" textAlignment="center" textWrap="true" color="white" text="{{ _L('info_sviluppatori') }}" marginTop="10"></Label>
-            <Label class="TimelessFont" textAlignment="center" textWrap="true" color="white" text="{{ _L('info_logo') }}" marginTop="10"></Label>
+            <Label class="TimelessFont" textAlignment="center" textWrap="true" color="white" text="{{ L('info_sviluppatori') }}" marginTop="10"></Label>
+            <Label class="TimelessFont" textAlignment="center" textWrap="true" color="white" text="{{ L('info_logo') }}" marginTop="10"></Label>
             <Button backgroundColor="rgba(64,43,18,0.8)" color="#aaaaaa" class="TimelessFont" textWrap="true" text="Copyright ©" ontap="onTapCopy" margin="10 5 0 5"></Button>
             <Button backgroundColor="rgba(64,43,18,0.8)" color="#aaaaaa" class="TimelessFont" textWrap="true" text="Disclaimer" ontap="onTapDisclaimer" margin="10 5 10 5"></Button>
         </StackLayout>
